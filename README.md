@@ -28,6 +28,11 @@ Analysis based on Data set: in-vehicle coupon recommendation
 
     ![User education](images/user_education.jpg "User education")
 
++ Gender
+  + male tend to use coupons more than female
+
+    ![User gender](images/user_gender.jpg "User gender")
+
 3. Correlation plots
 
     ![Correlation plots](images/correlations.jpg)
