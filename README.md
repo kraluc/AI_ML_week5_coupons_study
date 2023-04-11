@@ -4,22 +4,24 @@
 
 In this first practical application assignment of the program, you will seek to answer the question, “Will a customer accept the coupon?” The goal of this project is to use what you know about visualizations and probability distributions to distinguish between customers who accepted a driving coupon versus those that did not.
 
-## Jupyter Notebook
+Data set: in-vehicle coupon recommendation
 
-Analysis performed with [Coupon Jupyter Notebook](./Coupon.ipynb).
++ [Data folder](https://archive.ics.uci.edu/ml/machine-learning-databases/00603/)
++ [Attribute information](https://archive.ics.uci.edu/ml/datasets/in-vehicle%20coupon%20recommendation#)
+
+Analysis: performed with [Coupon Jupyter Notebook](./Coupon.ipynb).
 
 + Optional: Use the virtual environment of your choice
 + Install python modules using the ```requirements.txt``` file.
 
-```python
-python -m pip install -r requirements.txt
-```
+  ```python
+  python -m pip install -r requirements.txt
+  ```
 
 ## Findings
 
-1. Customers preferred coupon categories are
-   + "Restaurants (<20)"
-   + "Carry out & Takeaway"
+1. Customers preferred coupon categories:
+   + "Carry out & Takeaway" and "Restaurants (<20)"
 
 ![User Coupon Preferences](images/user_preferences.jpg "User preferences")
 
@@ -55,9 +57,9 @@ python -m pip install -r requirements.txt
 ### Criteria 3 - Visualizations (30 pts)
 
 + [ ] Appropriate plots for categorical and continuous variables are utilized
-+ [ ] Plots contain human readable labels
-+ [ ] Plots contain descriptive titles
-+ [ ] Axes are legible
++ [X] Plots contain human readable labels
++ [X] Plots contain descriptive titles
++ [X] Axes are legible
 + [ ] Subplots are used when appropriate
 + [ ] Plots are scaled appropriately for readability
 
