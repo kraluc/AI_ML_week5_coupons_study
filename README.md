@@ -15,7 +15,13 @@ Analysis performed with [Coupon Jupyter Notebook](./Coupon.ipynb).
 python -m pip install -r requirements.txt
 ```
 
-## Summary of Findings
+## Findings
+
+1. Customers preferred coupon categories are
+   + "Restaurants (<20)"
+   + "Carry out & Takeaway"
+
+![User Coupon Preferences](images/user_preferences.jpg "User preferences")
 
 **the differences between customers who did and did not accept the coupons.**
 
@@ -25,9 +31,7 @@ python -m pip install -r requirements.txt
 
 [AI_ML_week5_coupons_study](https://github.com/kraluc/AI_ML_week5_coupons_study)
 
-This is a required assignment and counts toward program completion.
-
-##
+## Grading Criteria
 
 ### Criteria 1 - Project Organization (20 pts)
 
@@ -42,7 +46,7 @@ This is a required assignment and counts toward program completion.
 
 + [X] Libraries are imported and aliased correctly
 + [ ] Code does not contain errors
-+ [ ]·No long strings of code output
++ [ ] No long strings of code output
 + [ ] Demonstrates competency with pandas
 + [ ] Demonstrates competency with seaborn
 + [ ] Comments are used appropriately to explain code
