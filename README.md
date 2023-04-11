@@ -22,6 +22,10 @@ Analysis based on Data set: in-vehicle coupon recommendation
 
 2. **Differences between customers who did and did not accept the coupons.**
 
++ Overall not a huge difference based on education, except for
+  + used more - college - no degree
+  + used less - masters or doctorate
+
     ![User education](images/user_education.jpg "User education")
 
 3. Corelation plots
