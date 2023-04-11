@@ -40,11 +40,13 @@ Analysis based on Data set: in-vehicle coupon recommendation
 
 3. Correlation plots
 
++ work in progress
   ![Correlation plots](images/correlations.jpg)
 
 ## Next Steps
 
 + Additional care should be taken to see if conditions were the same for the different education groups. In other words, need to see if something skews the data.
++ Update Correlation plot so it is based on density / normalized population instead of discrete values
 
 ## Grading Criteria
 
