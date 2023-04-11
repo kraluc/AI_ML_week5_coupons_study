@@ -28,7 +28,7 @@ Analysis based on Data set: in-vehicle coupon recommendation
 
     ![User education](images/user_education.jpg "User education")
 
-3. Corelation plots
+3. Correlation plots
 
     ![Correlation plots](images/correlations.jpg)
 
