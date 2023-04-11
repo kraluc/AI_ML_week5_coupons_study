@@ -46,12 +46,12 @@ Analysis based on Data set: in-vehicle coupon recommendation
 ### Criteria 2 - Syntax and Code quality (20 pts)
 
 + [X] Libraries are imported and aliased correctly
-+ [ ] Code does not contain errors
-+ [ ] No long strings of code output
++ [X] Code does not contain errors
++ [X] No long strings of code output
 + [ ] Demonstrates competency with pandas
 + [ ] Demonstrates competency with seaborn
-+ [ ] Comments are used appropriately to explain code
-+ [ ] Variables are sensible
++ [X] Comments are used appropriately to explain code
++ [X] Variables are sensible
 
 ### Criteria 3 - Visualizations (30 pts)
 
@@ -59,13 +59,13 @@ Analysis based on Data set: in-vehicle coupon recommendation
 + [X] Plots contain human readable labels
 + [X] Plots contain descriptive titles
 + [X] Axes are legible
-+ [ ] Subplots are used when appropriate
-+ [ ] Plots are scaled appropriately for readability
++ [X] Subplots are used when appropriate
++ [X] Plots are scaled appropriately for readability
 
 ### Criteria 4 - Findings (30 pts)
 
 + [ ] Clearly stated problem for specific coupon group
-+ [ ] Visualizations that demonstrate exploring differences in those who accepted and rejected the coupon
++ [X] Visualizations that demonstrate exploring differences in those who accepted and rejected the coupon
 + [ ] Interpretation of descriptive and inferential statistics is correct and concise
 + [ ] The findings are clearly stated in their own section with actionable items highlighted
 + [ ] Next steps and recommendations
