@@ -38,6 +38,9 @@ Analysis based on Data set: in-vehicle coupon recommendation
   + Student without specialization tend to use the coupons more
     ![User occupation](images/user_occupation.jpg "User occupation")
 
++ Age
+    ![User age](images/user_age.jpg "User age")
+
 3. Correlation plots
 
 + work in progress
