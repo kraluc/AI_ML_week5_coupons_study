@@ -17,10 +17,16 @@ Analysis based on Data set: in-vehicle coupon recommendation
 ## Findings
 
 1. Preferred coupon categories: **"Carry out & Takeaway"** and **"Restaurants (<20)"**
+
     ![User Coupon Preferences](images/user_preferences.jpg "User preferences")
 
 2. **Differences between customers who did and did not accept the coupons.**
+
     ![User education](images/user_education.jpg "User education")
+
+3. Corelation plots
+
+    ![Correlation plots](images/correlations.jpg)
 
 ## Grading Criteria
 
