@@ -32,6 +32,10 @@ Analysis based on Data set: in-vehicle coupon recommendation
 
     ![Correlation plots](images/correlations.jpg)
 
+## Next Steps
+
++ Additional care should be taken to see if conditions were the same for the different education groups. In other words, need to see if something skews the data.
+
 ## Grading Criteria
 
 ### Criteria 1 - Project Organization (20 pts)
