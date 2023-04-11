@@ -3,35 +3,23 @@
 ## Overview
 
 In this first practical application assignment of the program, you will seek to answer the question, “Will a customer accept the coupon?” The goal of this project is to use what you know about visualizations and probability distributions to distinguish between customers who accepted a driving coupon versus those that did not.
+<br></br>
 
-Data set: in-vehicle coupon recommendation
+## Methodology
+
+Analysis based on Data set: in-vehicle coupon recommendation
 
 + [Data folder](https://archive.ics.uci.edu/ml/machine-learning-databases/00603/)
 + [Attribute information](https://archive.ics.uci.edu/ml/datasets/in-vehicle%20coupon%20recommendation#)
-
-Analysis: performed with [Coupon Jupyter Notebook](./Coupon.ipynb).
-
-+ Optional: Use the virtual environment of your choice
-+ Install python modules using the ```requirements.txt``` file.
-
-  ```python
-  python -m pip install -r requirements.txt
-  ```
++ [Coupon Jupyter Notebook](./Coupon.ipynb)
+  (prerequisites: ```pip install -r [requirements.txt](requirements.txt)```
 
 ## Findings
 
-1. Customers preferred coupon categories:
-   + "Carry out & Takeaway" and "Restaurants (<20)"
+1. Preferred coupon categories: **"Carry out & Takeaway"** and **"Restaurants (<20)"**
+    ![User Coupon Preferences](images/user_preferences.jpg "User preferences")
 
-![User Coupon Preferences](images/user_preferences.jpg "User preferences")
-
-**the differences between customers who did and did not accept the coupons.**
-
-+ To explore the data, you will utilize your knowledge of plotting, statistical summaries, and visualization using Python.
-
-+ You will publish your findings in a public facing GitHub repository as your first portfolio piece.
-
-[AI_ML_week5_coupons_study](https://github.com/kraluc/AI_ML_week5_coupons_study)
+2. **Differences between customers who did and did not accept the coupons.**
 
 ## Grading Criteria
 
