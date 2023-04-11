@@ -20,6 +20,7 @@ Analysis based on Data set: in-vehicle coupon recommendation
     ![User Coupon Preferences](images/user_preferences.jpg "User preferences")
 
 2. **Differences between customers who did and did not accept the coupons.**
+    ![User education](images/user_education.jpg "User education")
 
 ## Grading Criteria
 
