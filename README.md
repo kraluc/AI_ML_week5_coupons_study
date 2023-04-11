@@ -35,7 +35,7 @@ Analysis based on Data set: in-vehicle coupon recommendation
 
 + Occupation
   + larger populations from unemployed, Computer math student
-  + Student without specialization tend to use the coupons more
+  + Student (no specialization) tend to use the coupons more
     ![User occupation](images/user_occupation.jpg "User occupation")
 
 + Age
