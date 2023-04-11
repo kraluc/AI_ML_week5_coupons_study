@@ -39,6 +39,7 @@ Analysis based on Data set: in-vehicle coupon recommendation
     ![User occupation](images/user_occupation.jpg "User occupation")
 
 + Age
+  + 21 and 26 years old take more advantage of the coupons
     ![User age](images/user_age.jpg "User age")
 
 3. Correlation plots
