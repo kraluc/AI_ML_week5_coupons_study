@@ -2,95 +2,65 @@
 
 ## Overview
 
-In this first practical application assignment of the program, you will seek to answer the question, “Will a customer accept the coupon?” The goal of this project is to use what you know about visualizations and probability distributions to distinguish between customers who accepted a driving coupon versus those that did not. Use the [Coupon Jupyter Notebook](./Coupon.ipynb) to complete this assignment.
+In this first practical application assignment of the program, you will seek to answer the question, “Will a customer accept the coupon?” The goal of this project is to use what you know about visualizations and probability distributions to distinguish between customers who accepted a driving coupon versus those that did not.
 
-## Data
+## Jupyter Notebook
 
-This [data](https://archive.ics.uci.edu/ml/machine-learning-databases/00603/in-vehicle-coupon-recommendation.csv) comes to us from the UCI Machine Learning repository and was collected via a survey on Amazon Mechanical Turk. The survey describes different driving scenarios, including the destination, current time, weather, passenger, etc., and then asks people whether they will accept the coupon if they are the driver. Answers given that the users will drive there “right away” or “later before the coupon expires” are labeled as “Y = 1”, and answers “no, I do not want the coupon” are labeled as “Y = 0”. There are five different types of coupons—less expensive restaurants (under $20), coffee houses, carry out and take away, bars, and more expensive restaurants ($20–$50).
+Analysis performed with [Coupon Jupyter Notebook](./Coupon.ipynb).
 
-## Deliverables
++ Optional: Use the virtual environment of your choice
++ Install python modules using the ```requirements.txt``` file.
 
-Your final product should be a brief report that highlights the differences between customers who did and did not accept the coupons. To explore the data, you will utilize your knowledge of plotting, statistical summaries, and visualization using Python. You will publish your findings in a public facing GitHub repository as your first portfolio piece.
+```python
+python -m pip install -r requirements.txt
+```
+
+## Summary of Findings
+
+**the differences between customers who did and did not accept the coupons.**
+
++ To explore the data, you will utilize your knowledge of plotting, statistical summaries, and visualization using Python.
+
++ You will publish your findings in a public facing GitHub repository as your first portfolio piece.
+
+[AI_ML_week5_coupons_study](https://github.com/kraluc/AI_ML_week5_coupons_study)
 
 This is a required assignment and counts toward program completion.
 
-## Submission Instructions
+##
 
-Submit the website URL to your public-facing GitHub repository here
-Your learning facilitators will grade your submission according to the rubric below.
+### Criteria 1 - Project Organization (20 pts)
 
-### Getting started (macOS)
++ [x] A README file with summary of findings and link to notebook
++ [x] Jupyter notebook with headings and text appropriately formatted
++ [x] No unnecessary files (used .gitignore)
+  + included [requirements.txt](requirements.txt) file for easier setup
+  + may include downloaded copy of .csv
++ [x] Directories and files have appropriate names and location
 
-Use the virtual environment of your choice and install the recommended python modules.
+### Criteria 2 - Syntax and Code quality (20 pts)
 
-### prerequisites
++ [X] Libraries are imported and aliased correctly
++ [ ] Code does not contain errors
++ [ ]·No long strings of code output
++ [ ] Demonstrates competency with pandas
++ [ ] Demonstrates competency with seaborn
++ [ ] Comments are used appropriately to explain code
++ [ ] Variables are sensible
 
-1. Install [homebrew](https://brew.sh/)
+### Criteria 3 - Visualizations (30 pts)
 
-2. Install [Git](https://github.com/git-guides/install-git)
++ [ ] Appropriate plots for categorical and continuous variables are utilized
++ [ ] Plots contain human readable labels
++ [ ] Plots contain descriptive titles
++ [ ] Axes are legible
++ [ ] Subplots are used when appropriate
++ [ ] Plots are scaled appropriately for readability
 
-3. Install [pipenv](https://pipenv.pypa.io/en/latest/installation/)
+### Criteria 4 - Findings (30 pts)
 
-```python
-pip install --upgrade pipenv
-```
-
-#### pipenv example
-
-1. Create virtual environment with Python version (must already be installed)
-
-```python
-pipenv --python 3.10
-```
-
-2. Install modules
-
-* When a requirements.txt file is present, pipenv will automatically install those when you first run ```pipenv install```
-
-* Requirements were generated as follows
-
-```
-pipenv install seaborn matplotlib numpy pandas
-```
-
-```python
-Installing plotly...
-Adding plotly to Pipfile's [packages]...
-✔ Installation Succeeded
-Installing seaborn...
-Adding seaborn to Pipfile's [packages]...
-✔ Installation Succeeded
-Installing matplotlib...
-Adding matplotlib to Pipfile's [packages]...
-✔ Installation Succeeded
-Installing numpy...
-Adding numpy to Pipfile's [packages]...
-✔ Installation Succeeded
-Installing pandas...
-Adding pandas to Pipfile's [packages]...
-✔ Installation Succeeded
-Pipfile.lock not found, creating...
-Locking [dev-packages] dependencies...
-Locking [packages] dependencies...
-Building requirements...
-Resolving dependencies...
-✔ Success!
-Updated Pipfile.lock (033c10)!
-Installing dependencies from Pipfile.lock (033c10)...
-  🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 0/0 — 00:00:00
-To activate this project's virtualenv, run pipenv shell.
-Alternatively, run a command inside the virtualenv with pipenv run.
-```
-
-```python
-pipenv run pip freeze > requirements.txt
-```
-
-## Practical Application Assignment 5.1
-
-### Criteria 1 - Project Organization
-
-* A README file with summary of findings and link to notebook
-* Jupyter notebook with headings and text appropriately formatted
-* No unnecessary files
-* Directories and files have appropriate names and location
++ [ ] Clearly stated problem for specific coupon group
++ [ ] Visualizations that demonstrate exploring differences in those who accepted and rejected the coupon
++ [ ] Interpretation of descriptive and inferential statistics is correct and concise
++ [ ] The findings are clearly stated in their own section with actionable items highlighted
++ [ ] Next steps and recommendations
