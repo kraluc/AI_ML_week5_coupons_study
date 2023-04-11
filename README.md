@@ -48,6 +48,7 @@ Analysis based on Data set: in-vehicle coupon recommendation
 + Additional care should be taken to see if conditions were the same for the different education groups. In other words, need to see if something skews the data.
 + Update Correlation plot so it is based on density / normalized population instead of discrete values
 
+<!---
 ## Grading Criteria
 
 ### Criteria 1 - Project Organization (20 pts)
@@ -85,3 +86,4 @@ Analysis based on Data set: in-vehicle coupon recommendation
 + [ ] Interpretation of descriptive and inferential statistics is correct and concise
 + [ ] The findings are clearly stated in their own section with actionable items highlighted
 + [ ] Next steps and recommendations
+-->
