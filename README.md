@@ -33,9 +33,14 @@ Analysis based on Data set: in-vehicle coupon recommendation
 
     ![User gender](images/user_gender.jpg "User gender")
 
++ Occupation
+  + larger populations from unemployed, Computer math student
+  + Student without specialization tend to use the coupons more
+    ![User occupation](images/user_occupation.jpg "User occupation")
+
 3. Correlation plots
 
-    ![Correlation plots](images/correlations.jpg)
+  ![Correlation plots](images/correlations.jpg)
 
 ## Next Steps
 
